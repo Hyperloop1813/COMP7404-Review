@@ -375,4 +375,4 @@ print('Solution path:',aStarGsa(practice, practiceH, 'S', 'G'))
 
 ### 3.4.3 A* 搜索的最优性（Optimality of A*）
 
-![1770012938180](image/Informed-Search/1770012938180.png)
+![1778214031976](image/Informed-Search/1778214031976.png)

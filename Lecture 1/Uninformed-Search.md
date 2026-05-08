@@ -366,6 +366,10 @@ print('Solution path:', bfsGsa(romania, 'A', 'B'))
 
 ![1769690465864](image/UninformedSearch/1769690465864.png)
 
+## 3.3 BFS的性质
+![1778161766132](image/Uninformed-Search/1778161766132.png)
+![1778161792808](image/Uninformed-Search/1778161792808.png)
+
 ---
 
 # 4 深度优先搜索 (Depth-first search)
@@ -406,7 +410,11 @@ print('Solution path:',dfsGsa(romania, 'A', 'B'))
 ![1769923360710](image/UninformedSearch/1769923360710.png)
 ![1769923372828](image/UninformedSearch/1769923372828.png)
 
-### 4.3 BFS DFS 比较
+## 4.3 DFS的性质
+![1778162938572](image/Uninformed-Search/1778162938572.png)
+![1778162953055](image/Uninformed-Search/1778162953055.png)
+
+## 4.4 GSA/TSA 比较
 
 **GSA（图搜索算法，Graph Search Algorithm）**
 
@@ -507,4 +515,5 @@ print('Solution path:',ucsGsa(romania, 'A', 'B'))
 ![1769933878000](image/UninformedSearch/1769933878000.png)
 
 ## 5.5 UCS算法特点
-![1770009707436](image/UninformedSearch/1770009707436.png)
+![1778211585661](image/Uninformed-Search/1778211585661.png)
+![1778211601242](image/Uninformed-Search/1778211601242.png)
