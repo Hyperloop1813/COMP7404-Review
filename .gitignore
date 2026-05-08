@@ -1,0 +1,5 @@
+# 忽略所有 .ipynb 后缀的文件
+*.ipynb
+
+# 忽略根目录下的 question.md 文件
+/question.md

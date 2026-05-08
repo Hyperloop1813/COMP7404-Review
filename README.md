@@ -1,5 +1,5 @@
 
-# COMP7404 Computational Intelligence - 复习参考
+# COMP7404 Computational Intelligence - 复习指南
 
 本项目专为 **COMP7404 Computational Intelligence** 课程期末复习准备。包含了课程核心知识点的系统梳理、Python 基础、以及历年真题（Exam）解析，旨在帮助大家在短时间内高效掌握课程重点。
 
@@ -32,22 +32,22 @@
 
 * **Uninformed Search**: Breadth-First Search (BFS), Depth-First Search (DFS), Uniform Cost Search (UCS).
 * **Informed Search**: A* Search, Heuristics.
-* **Local Search**: Hill Climbing, Simulated Annealing.
+* **Local Search**: 8 Queens.
 * **Adversarial Search**: Minimax Algorithm, Alpha-Beta Pruning.
 * **Constraint Satisfaction Problems (CSP)**: Backtracking, Forward Checking.
 
 ### **L2-3: MDP & Reinforcement Learning**
 
-* Markov Decision Processes (MDP).
-* Value Iteration & Policy Iteration.
-* Q-Learning & Sarsa.
+* **Markov Decision Processes (MDP).**
+* **Value Iteration & Policy Iteration.**
+* **Q-Learning**
 
 ### **L4-5: Machine Learning Basis**
 
 * **Perceptron**: 感知机基础。
 * **Adaptive Linear Neurons (Adaline)**: 自适应线性神经元。
 * **Logistic Regression**: 逻辑回归与 Sigmoid 函数。
-* **Support Vector Machines (SVM)**: 核技巧与最大间隔。
+* **Support Vector Machines (SVM)**: 软间隔硬间隔。
 * **Decision Trees**: 决策树构建与剪枝。
 * **K-Nearest Neighbors (KNN)**: 距离度量与 K 值选择。
 

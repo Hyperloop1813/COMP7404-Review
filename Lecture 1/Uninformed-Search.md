@@ -1,7 +1,5 @@
 # Uninformed Search 知识梳理
 
-**由宇宙无敌帅Hyperloop汇总**
-
 # 1 引入
 
 ## 1.1 搜索类型（Types of Search）
@@ -301,13 +299,13 @@ def gsaGfs(stateSpaceGraph, startState, goalState):
     while frontier:
         node = frontier.popleft()  # 从队列取出节点
         current_state = node[-1]   # 获取当前状态
-      
+    
         if current_state == goalState:
             return node  # 找到解
-          
+        
         if current_state not in explored:
             explored.add(current_state)  # 标记为已探索
-          
+        
             # 扩展当前状态
             for child in stateSpaceGraph[current_state]:
                 if child not in explored:
@@ -342,13 +340,13 @@ def bfsGsa(stateSpaceGraph, startState, goalState):
         node = frontier.popleft()
         if (node.endswith(goalState)): 
             return node
-      
+    
         if node[-1] not in exploredSet:
             print('Exploring:', node[-1], '...')
             exploredSet.add(node[-1])
             for child in stateSpaceGraph[node[-1]]: 
                 frontier.append(node + child)
-      
+    
         print(list(frontier))
         print(exploredSet)
         input()
@@ -367,6 +365,7 @@ print('Solution path:', bfsGsa(romania, 'A', 'B'))
 ![1769690465864](image/UninformedSearch/1769690465864.png)
 
 ## 3.3 BFS的性质
+
 ![1778161766132](image/Uninformed-Search/1778161766132.png)
 ![1778161792808](image/Uninformed-Search/1778161792808.png)
 
@@ -411,6 +410,7 @@ print('Solution path:',dfsGsa(romania, 'A', 'B'))
 ![1769923372828](image/UninformedSearch/1769923372828.png)
 
 ## 4.3 DFS的性质
+
 ![1778162938572](image/Uninformed-Search/1778162938572.png)
 ![1778162953055](image/Uninformed-Search/1778162953055.png)
 
@@ -515,5 +515,6 @@ print('Solution path:',ucsGsa(romania, 'A', 'B'))
 ![1769933878000](image/UninformedSearch/1769933878000.png)
 
 ## 5.5 UCS算法特点
+
 ![1778211585661](image/Uninformed-Search/1778211585661.png)
 ![1778211601242](image/Uninformed-Search/1778211601242.png)

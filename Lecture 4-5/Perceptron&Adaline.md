@@ -1,4 +1,5 @@
 # Perceptron & Adaline
+最短的一集
 
 # 1 Perceptron
 ## 1.1 人工神经元定义 (Artificial Neuron - Definition)
