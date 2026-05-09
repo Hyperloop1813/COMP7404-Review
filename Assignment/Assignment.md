@@ -51,6 +51,8 @@ Suppose that the following are a set of point in two classes:
 
 Plot them and find the optimal separating line. What are the support vectors, and what is the meaning?
 
+![1778310595274](image/Assignment/1778310595274.png)
+
 **中文解答:**
 在二维平面上绘制这些点可以看出：
 - Class 1 (正类) 的点集中在右上方。
