@@ -1,4 +1,3 @@
-
 # COMP7404 Computational Intelligence - 复习指南
 
 本项目专为 **COMP7404 Computational Intelligence** 课程期末复习准备。包含了课程核心知识点的系统梳理、Python 基础、以及历年真题（Exam）解析，旨在帮助大家在短时间内高效掌握课程重点。
@@ -19,8 +18,10 @@
 ## 📂 仓库结构
 
 * **`Lecture/`**: 核心课程知识梳理 MD 文档
-* **`Python-basis/`**: 课程涉及到的 Python 基础语法
+* **`Python-Basis/`**: 课程涉及到的 Python 基础语法
 * **`Exam/`**: 历年考试卷及相关练习
+* **`Assigment/`**: 作业练习题
+* **`Key-Notes/`**: 考试涉及的琐碎知识点梳理
 
 ---
 
@@ -47,13 +48,13 @@
 * **Perceptron**: 感知机基础。
 * **Adaptive Linear Neurons (Adaline)**: 自适应线性神经元。
 * **Logistic Regression**: 逻辑回归与 Sigmoid 函数。
-* **Support Vector Machines (SVM)**: 软间隔硬间隔。
-* **Decision Trees**: 决策树构建与剪枝。
+* **Support Vector Machines (SVM)**: 软间隔与硬间隔。
+* **Decision Trees**: 决策树构建与随机森林。
 * **K-Nearest Neighbors (KNN)**: 距离度量与 K 值选择。
 
 ### **L6: Philosophy of AI**
 
-* 人工智能伦理、图灵测试、强 AI 与弱 AI 等哲学探讨。
+* **人工智能伦理、图灵测试、强 AI 与弱 AI 等哲学探讨。**
 
 ---
 
@@ -63,8 +64,8 @@
 
 1. **判断题 (T/F)**：**注意！** 答错通常会**倒扣分**，不确定时建议空着。
 2. **单选题 (MCQ)**：考点非常细致，建议通读 PPT。
-3. **代码纠错与补全**：考察对 Python 及其 AI 库实现的理解。
-4. **MDP & RL 计算推演**：涉及 Bellman Equation 等数学推导，务必熟练公式。
+3. **代码纠错与补全**：考察对 Python 语法及算法实现的理解。
+4. **MDP & RL 计算推演**：涉及 Bellman Equation 等数学计算，务必熟练公式。
 
 ---
 
@@ -73,12 +74,14 @@
 > **作者（hyperloop）保证：按照此思路复习，3天可达及格线。**
 
 1. **Day 1: 夯实基础**
-   * 结合老师的 **PDF 课件** 和本项目中的 **知识梳理 MD 文档** 进行第一轮复习。
 
+   * 结合老师的 **PDF 课件** 和本项目中的 **知识梳理 MD 文档** 进行第一轮复习。
 2. **Day 2: 考题突破**
+
    * 重点研究 **近 3 年的试卷**。
    * 对照 **4 次作业例题** 进行复习，很多考试计算题的原型来自作业。
 3. **Day 3: 查漏补缺**
+
    * **深度阅读 PPT**：MC（单选）和 TF（判断）的概念考得极其细致，梳理文档无法覆盖所有细节，老师的 PPT 才是“圣经”。
    * 如果还有精力，可以刷更早年份的卷子进行手感强化。
 
