@@ -246,7 +246,7 @@ Suppose the features in your training set have very different scales. Which algo
 *(注：基于决策树的算法如随机森林、AdaBoost 则不受影响，因为它们只关注单一特征的排序和切分，不涉及跨特征的距离计算。)*
 
 **解决方法**：
-可以通过**特征缩放（Feature Scaling）**来解决。常见的方法有：
+可以通过**特征缩放（Feature Scaling）** 来解决。常见的方法有：
 - **标准化 (Standardization)**：将特征转换为均值为0，标准差为1的分布（$x' = \frac{x - \mu}{\sigma}$）。大多数机器学习算法首选这种缩放。
 - **最小-最大归一化 (Min-Max Normalization)**：将特征值线性映射到特定范围（通常是 $[0, 1]$）内（$x' = \frac{x - \min}{\max - \min}$）。
 
